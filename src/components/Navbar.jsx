@@ -22,7 +22,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 bject-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer">
-            <span className="sm:block hidden">| My</span> | Portfolio
+            My Portfolio
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
