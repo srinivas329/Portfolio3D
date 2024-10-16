@@ -23,10 +23,12 @@ import {
   mysql,
   tesla,
   shopify,
-  carrent,
+  covid,
+  jobbyApp,
   jobit,
   tripguide,
   threejs,
+  shopping,
 } from "../assets";
 
 export const navLinks = [
@@ -188,33 +190,56 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Covid19 Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a COVID-19 dashboard that provides users with real-time data and statistics related to the ongoing pandemic. It likely includes regional breakdown to display the number of cases, deaths, and recoveries by location. The app may also include charts and graphs to help users visualize trends and patterns in the data and other important metrics. With your app, users can stay informed and up-to-date on the latest COVID-19 statistics and trends.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: covid,
+    source_code_link: "https://github.com/srinivas329/CovidProject",
+    website_link: "https://srinucovid19.ccbp.tech/",
   },
   {
-    name: "Job IT",
+    name: "Nxt Trendz (Clone)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is an e-commerce platform that enables users to shop online and purchase a variety of products. It likely includes features such as product listings, search functionality, and a shopping cart for users to add items to their order. The app may also include product categories and filters, customer reviews and ratings, and a checkout process to complete the purchase. User Details - usernames : rahul, praneetha, raja ~Passwords : rahul@2021, praneeth@2021, raja@2021",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shopping,
+    source_code_link: "https://github.com/srinivas329/NxtTrends",
+    website_link: "https://srinunxtrendz.ccbp.tech/login",
+  },
+  {
+    name: "Jobby Application",
+    description:
+      " It likely includes a search function that allows users to enter keywords or job titles and filter results by location, salary range, or other criteria. The app may also display job listings with details such as job description, company information, and application instructions. With your app, job seekers can easily browse and apply for open positions, making the job search process more efficient and effective. User Details usernames : rahul, raja Passwords : rahul@2021, raja@2021 ",
+    tags: [
+      {
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -226,29 +251,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobbyApp,
+    source_code_link: "https://github.com/srinivas329/jobbyApp",
+    website_link: "https://srinujobbyweb.ccbp.tech/login",
   },
 ];
 
