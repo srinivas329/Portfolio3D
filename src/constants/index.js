@@ -9,6 +9,7 @@ import {
   digilogo,
   nxtwave,
   html,
+  pythonlogo,
   css,
   reactjs,
   redux,
@@ -19,6 +20,7 @@ import {
   figma,
   docker,
   starbucks,
+  mysql,
   tesla,
   shopify,
   carrent,
@@ -70,13 +72,15 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+
   {
     name: "JavaScript",
     icon: javascript,
   },
+
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: pythonlogo,
   },
   {
     name: "React JS",
@@ -87,6 +91,10 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "SQL",
+    icon: mysql,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -94,14 +102,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
