@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import connectSecure from "./company/connectSecure.png";
+import digilogo from "./company/digilogo.png";
+import nxtwave from "./company/nxtwave.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,6 +44,9 @@ export {
   close,
   css,
   docker,
+  connectSecure,
+  digilogo,
+  nxtwave,
   figma,
   git,
   html,

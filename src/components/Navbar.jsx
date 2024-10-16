@@ -20,7 +20,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 bject-contain" />
+          <img
+            src="https://res.cloudinary.com/dxvsvzsai/image/upload/v1729061421/Screenshot_2024-10-16_at_12.20.04_PM_ieekbr.png"
+            alt="logo"
+            className="w-9 h-9 bject-contain shadow-white-100"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer">
             My Portfolio
           </p>
