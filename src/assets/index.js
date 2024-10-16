@@ -23,6 +23,8 @@ import threejs from "./tech/threejs.svg";
 import connectSecure from "./company/connectSecure.png";
 import digilogo from "./company/digilogo.png";
 import nxtwave from "./company/nxtwave.png";
+import pythonlogo from "./tech/pythonlogo.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -61,6 +63,8 @@ export {
   meta,
   shopify,
   starbucks,
+  pythonlogo,
+  mysql,
   tesla,
   carrent,
   jobit,
