@@ -32,6 +32,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import covid from "./covid.png";
+import shopping from "./shopping.png";
+import jobbyApp from "./jobbyApp.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -63,6 +66,9 @@ export {
   meta,
   shopify,
   starbucks,
+  covid,
+  shopping,
+  jobbyApp,
   pythonlogo,
   mysql,
   tesla,
