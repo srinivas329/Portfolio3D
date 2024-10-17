@@ -51,12 +51,19 @@ const Feedbacks = () => {
           <p className={`${styles.sectionSubText}`}>What others say</p>
           <h2 className={`${styles.sectionHeadText}`}>Testimonials</h2>
         </motion.div>
+        <div className="w-full flex flex-col justify-center items-center mt-6">
+          <h3 className="text-[30px] text-gray-400">Coming Soon...</h3>
+          <p className="text-[20px] text-gray-300 mt-4">
+            Will be updated in the future as I gather more feedbacks and
+            recommendations from colleagues and mentors.
+          </p>
+        </div>
       </div>
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      {/* <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
