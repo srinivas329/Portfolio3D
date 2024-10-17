@@ -7,14 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//template_o7xft4m
-
-// service_xlyzfrs
-
-//Ngnt0GPScGq-xZLHC
-
 const Contact = () => {
-  const [isSent, setIsSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -83,7 +76,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What is Your Name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col ">
@@ -94,7 +87,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What is Your Email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col ">
@@ -105,7 +98,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <button
